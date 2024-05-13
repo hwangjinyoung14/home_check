@@ -2,20 +2,33 @@
   body{
     height: auto;
   }
+
   header{
     height: 82px;
     padding: 0;
     display: flex;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0;
   }
 
-  nav{display: none;}
+  .nav{
+    display: block;
+    top: 100%;
+  }
+
+  .nav.scroll-nav{
+    display: none;
+  }
+
+  .nav .gnb > li > a{
+    width: 100px;
+    height: 70px;
+    font-size: 16px;
+  }
 
   .logo {
     float:left;
-    margin:0; 
-    margin-right: auto;
+    margin:0 auto 0 16px; 
   }
 
   .logo a {
@@ -70,108 +83,111 @@
 
   .icon ul li{
     width: 33.33%;
-    flex: auto; /*기존 플렉스 값 없애기*/
+    flex: auto;
   }
 
   .title {
     font-size:1.5rem;
     font-weight:700;
-}
-.subTitle {
+  }
+
+  .subTitle {
+      font-size:0.8rem;
+      margin-top:.8rem;
+  }
+
+  .service{
+    padding-top: 3rem;
+  }
+  .service .title{top:0px;}
+
+  .service .subTitle {top: 0;}
+
+  .service_content{top: 0;}
+  
+  .service_content ul{
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .service_content ul li a {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .expert_technique .expert{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .expert_technique .expert li {width:100%;}
+
+  .homeCheck{flex-wrap: wrap;}
+
+  .homeCheck .text {width: 80%; margin: auto;}
+
+  .homeCheck .text .homeCheck_title {
+    font-size:1.2rem;
+  }
+
+  .homeCheck .text p {
+    color:#b6e7da;
+    line-height:1.5;
     font-size:0.8rem;
-    margin-top:.8rem;
-}
-.service{
-  padding-top: 3rem;
-}
-.service .title{top:0px;}
+  }
 
-.service .subTitle {top: 0;}
-
-.service_content{top: 0;}
- 
-.service_content ul{
-  flex-direction: column;
-  gap: 1rem;
-  text-align: center;
-}
-
-.service_content ul li a {
-  display: inline-block;
-  text-align: left;
-}
-
-.expert_technique .expert{
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.expert_technique .expert li {width:100%;}
-
-.homeCheck{flex-wrap: wrap;}
-
-.homeCheck .text {width: 80%; margin: auto;}
-
-.homeCheck .text .homeCheck_title {
-  font-size:1.2rem;
-}
-
-.homeCheck .text p {
-  color:#b6e7da;
-  line-height:1.5;
-  font-size:0.8rem;
-}
-
-.homeCheck .img {
-  width:100%;
-  margin-top: 2rem;
-}
+  .homeCheck .img {
+    width:100%;
+    margin-top: 2rem;
+  }
 
 
-.awards .awards_content ul li{
-  flex-direction: column;
-}
+  .awards .awards_content ul li{
+    flex-direction: column;
+  }
 
-.awards .awards_content ul li .awards_icon img {
-  width: 70%;
-  margin: 0 auto 10px;
-  display: block;
-}
+  .awards .awards_content ul li .awards_icon img {
+    width: 70%;
+    margin: 0 auto 10px;
+    display: block;
+  }
 
-.awards .awards_content ul li .text strong {
-  font-size: 1.2rem;
-}
+  .awards .awards_content ul li .text strong {
+    font-size: 1.2rem;
+  }
 
-.awards .awards_content ul li .text span {
-  font-size: 0.3rem;
-}
+  .awards .awards_content ul li .text span {
+    font-size: 0.3rem;
+  }
 
-.awards .awards_content ul li .text {
-  color: #fff;
-  margin-left: 0;
-}
+  .awards .awards_content ul li .text {
+    color: #fff;
+    margin-left: 0;
+  }
 
-.awards .text_list ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  .awards .text_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.news .title_wrap{
-  float:none;
-  width:100%;
-  top:-40px;
-}
-.news .news_content{
-  display: block;
-}
-.news .news_content .left,
-.news .news_content .right{
-  width: 100%;
-}
-.news .news_content .left li:nth-child(1),
-.news .news_content .left li:nth-child(2){
-  width:100%; height: 250px;}
+  .news .title_wrap{
+    float:none;
+    width:100%;
+    top:-40px;
+  }
+  .news .news_content{
+    display: block;
+  }
+  .news .news_content .left,
+  .news .news_content .right{
+    width: 100%;
+  }
+  .news .news_content .left li:nth-child(1),
+  .news .news_content .left li:nth-child(2){
+  width:100%; height: 250px;
+  }
 
   .news .news_content .right{
     position: static;
@@ -188,16 +204,9 @@
   }
 
   .consumers_inner .board > div{
-    width: 90%;
+    width: 100%;
   }
   .consumers_inner .board > div:nth-child(1){
     margin-bottom: 3rem;
   }
-}
-
-@media screen and (max-width:1024px) { 
-}
-@media screen and (max-width:768px) { 
-}
-@media screen and (max-width:480px) { 
 }
