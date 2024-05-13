@@ -6,6 +6,10 @@
 
 홈 체크는 JavaScript와 CSS를 사용하여 개발한 웹 페이지 프로젝트입니다. 이 프로젝트는 사용자가 헤더를 마우스로 가리킬 때 서브 메뉴를 표시하고, 페이지를 스크롤하면서 헤더의 스타일 및 로고 이미지를 변경하며, 서비스 섹션에서 애니메이션 효과를 제공합니다.
 
+## 데모
+
+프로젝트를 더 자세히 살펴보려면 [여기](https://hwangjinyoung14.github.io/home_check/)를 클릭하세요.
+
 ## 기능 소개
 
 1. **🔖 서브 메뉴 표시**
@@ -17,14 +21,8 @@
 3. **✨ 서비스 섹션 애니메이션**
    - 페이지를 스크롤하여 특정 위치에 도달하면 서비스 섹션 요소들이 나타나는 애니메이션이 활성화됩니다.
 
-## 데모
-
-프로젝트를 더 자세히 살펴보려면 [여기](https://dlrud7113.github.io/HomeCheck/)를 클릭하세요.
-
 ## 기술 스택
-- HTML
-- CSS
-- JavaScript
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
 
 # 홈체크 반응형 홈페이지 제작
 이 프로젝트는 JavaScript와 CSS를 사용하여 만든 반응형 홈페이지입니다. 홈페이지는 다음과 같은 기능을 제공합니다.
@@ -36,7 +34,3 @@
 ### 서비스 섹션
 페이지를 스크롤하면 서비스 섹션의 일부 요소가 애니메이션과 함께 나타납니다.
 
-## 사용 기술
-HTML5
-CSS3
-JavaScript
