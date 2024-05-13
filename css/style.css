@@ -312,26 +312,12 @@ background-color: black;
 .service .title {
   position:relative;
   top:40px;
-  opacity:1;
-  transition:.6s;
-}
-
-.service .title.on {
-  top:1;
-  opacity:1; 
 }
 
 .service .subTitle {
   position:relative;
   top:40px;
-  opacity:1;
-  transition:.6s;
   transition-delay:0.1s; 
-}
-
-.service .subTitle.on {
-  top:0;
-  opacity:1; 
 }
 
 .service_content {
@@ -339,14 +325,7 @@ background-color: black;
   margin:50px auto 0;
   position:relative;
   top:40px;
-  opacity:1;
-  transition:.6s;
   transition-delay:0.2s;
-}
-
-.service_content.on {
-  top:0;
-  opacity:1; 
 }
 
 .service_content ul {
@@ -453,16 +432,7 @@ background-color: black;
   margin-top:2rem;
   position:relative;
   top:20px;
-  opacity:1;
-  transition:.5s;
   transition-delay:0.4s;
-}
-
-.expert_technique .title.on, 
-.expert_technique .subTitle.on, 
-.expert_technique .expert.on {
-  top:0;
-  opacity:1;
 }
 
 .expert_technique .expert li {

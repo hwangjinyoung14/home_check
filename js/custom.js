@@ -35,13 +35,6 @@ function scrollAction(){
     changeLogoSrc('images/logo_o.png');
     nav.classList.add('scroll-nav');
   }
-  //변수지정 .서비스 타이틀 위치
-  let serTitleOffset = document.querySelector('.service .title').offsetTop-500;
-  if(TOP > serTitleOffset){
-    document.querySelectorAll('.service .title, .service .subTitle, .service .service_content').forEach(function(z){
-      z.classList.add('on');
-    });
-  }
 }
 
 window.addEventListener('scroll', scrollAction);
